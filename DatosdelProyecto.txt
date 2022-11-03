@@ -1,0 +1,12 @@
+Integrantes
+Serna Chancolla Juan Carlos
+Git Hub: https://github.com/sernajuan/UC2S1-Parte01.git
+
+Venturi Calero Daniel Estephano
+Git Hub: https://github.com/Stefano15d/UC2S1-Parte02.git
+
+Garcia Vilcas Christian Hugo
+Git Hub: https://github.com/ChristianG144/UC2S1-Parte03.git
+
+Quispe Pisconte Jetmayer Guillermo
+Git Hub: https://github.com/Jetmayer/UC2S1-Parte04.git
