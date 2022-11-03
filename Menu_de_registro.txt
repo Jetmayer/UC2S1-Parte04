@@ -1,0 +1,48 @@
+import sys
+usuario="vensim"
+contraseña="2022"
+print("LOGIN")
+for i in range(2):
+    user =input("\nIngrese usuario:")
+    passw =input("Ingrese contraseña:")
+    if user ==usuario:
+        for i in range(2):
+        
+            if passw==contraseña:
+                class Persona:
+                 def __init__(self, nom, dni, app):
+                         self.nom = nom
+                         self.dni=dni
+                         self.app=app
+                i=0
+                lista=[]
+                def Mostrar():
+                    k=0
+                    while k < len(lista):
+                        print(lista[k].nom, " ", lista[k].app, " ", lista[k].dni)
+                        k+=1
+                while i==0:
+                    print("menu")
+                    print("1. Agregar personas: ")
+                    print("2. Listar Personas: ")
+                    print("3. Salir ")
+                    opcion = int(input())
+                    if opcion==1:
+                        print("*****registrar ****")
+                        n = input("ingrese el nombre: ")
+                        x = input("Ingrese el apellido: ")
+                        t = input("ingrese el DNI: ")
+                        per = Persona(n, t, x)
+                        lista.append(per)
+                        print("persona guardada con exito!")
+                    elif opcion==2:
+                        print("*****Mostar*****")
+                        Mostrar()
+                    elif opcion==3:
+                        exit()
+                    else:
+                        print("Opcion invalida")    
+            else:
+                print("error")
+    else:
+        print("Error de usuario y/o contraseña")
