@@ -1,0 +1,18 @@
+import sys
+usuario="vensim"
+contraseña="2022"
+print("LOGIN")
+for i in range(2):
+    user =input("\nIngrese usuario:")
+    passw =input("Ingrese contraseña:")
+    if user ==usuario:
+        for i in range(2):
+        
+            if passw==contraseña:
+                print("\n")
+                print("Datos Persona\n 1. Listar personas\n 2. Agregar personas\n 3. Salir\n ")
+                sys.exit()
+            else:
+                print("error")
+    else:
+        print("Error de usuario y/o contraseña")
